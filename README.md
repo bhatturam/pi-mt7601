@@ -17,7 +17,4 @@ The source for the driver is from ralink, I am only hosting it here. I have also
 sudo apt-get install linux-headers-rpi
 cd src/DPO_MT7601U_LinuxSTA_3.0.0.4_20130913/
 make
-sudo make install
-mkdir -p /etc/Wireless/RT2870STA/
-cp RT2870STA.dat /etc/Wireless/RT2870STA/
 ```
